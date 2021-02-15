@@ -4,7 +4,6 @@
 npm install @orioro/expression
 ```
 
-
 # Use cases
 
 ## Data querying

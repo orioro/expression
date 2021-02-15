@@ -11,6 +11,12 @@ import { STRING_EXPRESSIONS } from './expressions/string'
 import { TYPE_EXPRESSIONS } from './expressions/type'
 import { VALUE_EXPRESSIONS } from './expressions/value'
 
+/**
+ * @todo semantic-release Watch issue related to NPM_TOKEN
+ *                        https://github.com/semantic-release/npm/issues/298
+ *                        "npm automation tokens cannot create dist-tags #298"
+ */
+
 export const ALL_EXPRESSIONS = {
   ...ARRAY_EXPRESSIONS,
   ...BOOLEAN_EXPRESSIONS,
